@@ -22,7 +22,6 @@ public class MP3Player
 	{
 		songList = new ArrayList<Media>();
 		//required for the MediaPlayer object to work...
-		@SuppressWarnings("unused")
 		JFXPanel fxPanel = new JFXPanel();
 		currSongIndex = 0;
 		currVolume = 1;

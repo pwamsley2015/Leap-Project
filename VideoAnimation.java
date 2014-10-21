@@ -16,9 +16,6 @@ public class VideoAnimation implements Drawable {
 
 	private boolean isOver; 
 
-	/**
-	 * your drawables list  
-	 */
 	private ArrayList<Drawable> drawList; 
 
 	public VideoAnimation(int x, int y, String baseFileName, String fileType, int nOfFrames, int numOfReps, ArrayList<Drawable> drawList) {

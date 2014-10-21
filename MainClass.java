@@ -23,13 +23,6 @@ import java.util.ArrayList;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-
-/**
- * 
- * @author Patrick Wamsley
- * @version 0.9.8 - in developement. 
- *
- */
 @SuppressWarnings("serial")
 public class MainClass extends JFrame implements MouseMotionListener, KeyListener, MouseListener {
 

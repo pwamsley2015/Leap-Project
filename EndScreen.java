@@ -18,14 +18,6 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-/**
- * 
- * @author pwamsley
- * @see BeatLevelScreen 
- *
- */
-
-@SuppressWarnings("serial")
 public class EndScreen extends JFrame implements KeyListener {
 
 	public static final int WIN = 0, LOSS = 1; 
@@ -83,7 +75,6 @@ public class EndScreen extends JFrame implements KeyListener {
 	public void keyReleased(KeyEvent e) {}
 	public void keyTyped(KeyEvent e) {}
 }
-@SuppressWarnings("serial")
 class EndPanel extends JPanel {
 
 	public static final int WIDTH = (int) Toolkit.getDefaultToolkit().getScreenSize().getWidth(), 

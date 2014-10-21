@@ -9,11 +9,6 @@ import java.util.ArrayList;
 
 import javax.imageio.ImageIO;
 
-
-/**
- * @author Patrick Wamsley  
- */
-
 public class Gun implements Drawable, Actable {
 
 	/**
@@ -197,8 +192,6 @@ public class Gun implements Drawable, Actable {
 		}	
 		else {
 			reloadingAnimation.reset(); 
-
-
 		}
 
 		reloading = true; 
@@ -273,5 +266,9 @@ public class Gun implements Drawable, Actable {
 	}
 	public boolean isScoped() {
 		return isScopedIn; 
+	}
+
+	public boolean isReloading() {
+		return reloading;
 	}
 }
